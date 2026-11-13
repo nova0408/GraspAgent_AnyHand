@@ -1,0 +1,13 @@
+<mujoco model="mesh_515">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_515" file="object/mesh_515/gd_hammer_poisson_024_scaled_vox.obj" /><mesh name="mesh_515_0" file="object/mesh_515/output_parts/part_0.obj" /><mesh name="mesh_515_1" file="object/mesh_515/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_515" class="object/visual" mesh="mesh_515" /><geom name="mesh_515_0" class="object/collision" mesh="mesh_515_0" /><geom name="mesh_515_1" class="object/collision" mesh="mesh_515_1" /></body>
+  </worldbody>
+  
+</mujoco>

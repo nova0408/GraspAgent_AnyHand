@@ -1,0 +1,13 @@
+<mujoco model="mesh_138">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_138" file="object/mesh_138/others_large_plate_vox.obj" /><mesh name="mesh_138_0" file="object/mesh_138/output_parts/part_0.obj" /><mesh name="mesh_138_1" file="object/mesh_138/output_parts/part_1.obj" /><mesh name="mesh_138_2" file="object/mesh_138/output_parts/part_2.obj" /><mesh name="mesh_138_3" file="object/mesh_138/output_parts/part_3.obj" /><mesh name="mesh_138_4" file="object/mesh_138/output_parts/part_4.obj" /><mesh name="mesh_138_5" file="object/mesh_138/output_parts/part_5.obj" /><mesh name="mesh_138_6" file="object/mesh_138/output_parts/part_6.obj" /><mesh name="mesh_138_7" file="object/mesh_138/output_parts/part_7.obj" /><mesh name="mesh_138_8" file="object/mesh_138/output_parts/part_8.obj" /><mesh name="mesh_138_9" file="object/mesh_138/output_parts/part_9.obj" /><mesh name="mesh_138_10" file="object/mesh_138/output_parts/part_10.obj" /><mesh name="mesh_138_11" file="object/mesh_138/output_parts/part_11.obj" /><mesh name="mesh_138_12" file="object/mesh_138/output_parts/part_12.obj" /><mesh name="mesh_138_13" file="object/mesh_138/output_parts/part_13.obj" /><mesh name="mesh_138_14" file="object/mesh_138/output_parts/part_14.obj" /><mesh name="mesh_138_15" file="object/mesh_138/output_parts/part_15.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_138" class="object/visual" mesh="mesh_138" /><geom name="mesh_138_0" class="object/collision" mesh="mesh_138_0" /><geom name="mesh_138_1" class="object/collision" mesh="mesh_138_1" /><geom name="mesh_138_2" class="object/collision" mesh="mesh_138_2" /><geom name="mesh_138_3" class="object/collision" mesh="mesh_138_3" /><geom name="mesh_138_4" class="object/collision" mesh="mesh_138_4" /><geom name="mesh_138_5" class="object/collision" mesh="mesh_138_5" /><geom name="mesh_138_6" class="object/collision" mesh="mesh_138_6" /><geom name="mesh_138_7" class="object/collision" mesh="mesh_138_7" /><geom name="mesh_138_8" class="object/collision" mesh="mesh_138_8" /><geom name="mesh_138_9" class="object/collision" mesh="mesh_138_9" /><geom name="mesh_138_10" class="object/collision" mesh="mesh_138_10" /><geom name="mesh_138_11" class="object/collision" mesh="mesh_138_11" /><geom name="mesh_138_12" class="object/collision" mesh="mesh_138_12" /><geom name="mesh_138_13" class="object/collision" mesh="mesh_138_13" /><geom name="mesh_138_14" class="object/collision" mesh="mesh_138_14" /><geom name="mesh_138_15" class="object/collision" mesh="mesh_138_15" /></body>
+  </worldbody>
+  
+</mujoco>

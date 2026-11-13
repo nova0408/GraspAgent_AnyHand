@@ -1,0 +1,13 @@
+<mujoco model="mesh_302">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_302" file="object/mesh_302/kit_CoffeeCookies_scaled_vox.obj" /><mesh name="mesh_302_0" file="object/mesh_302/output_parts/part_0.obj" /><mesh name="mesh_302_1" file="object/mesh_302/output_parts/part_1.obj" /><mesh name="mesh_302_2" file="object/mesh_302/output_parts/part_2.obj" /><mesh name="mesh_302_3" file="object/mesh_302/output_parts/part_3.obj" /><mesh name="mesh_302_4" file="object/mesh_302/output_parts/part_4.obj" /><mesh name="mesh_302_5" file="object/mesh_302/output_parts/part_5.obj" /><mesh name="mesh_302_6" file="object/mesh_302/output_parts/part_6.obj" /><mesh name="mesh_302_7" file="object/mesh_302/output_parts/part_7.obj" /><mesh name="mesh_302_8" file="object/mesh_302/output_parts/part_8.obj" /><mesh name="mesh_302_9" file="object/mesh_302/output_parts/part_9.obj" /><mesh name="mesh_302_10" file="object/mesh_302/output_parts/part_10.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_302" class="object/visual" mesh="mesh_302" /><geom name="mesh_302_0" class="object/collision" mesh="mesh_302_0" /><geom name="mesh_302_1" class="object/collision" mesh="mesh_302_1" /><geom name="mesh_302_2" class="object/collision" mesh="mesh_302_2" /><geom name="mesh_302_3" class="object/collision" mesh="mesh_302_3" /><geom name="mesh_302_4" class="object/collision" mesh="mesh_302_4" /><geom name="mesh_302_5" class="object/collision" mesh="mesh_302_5" /><geom name="mesh_302_6" class="object/collision" mesh="mesh_302_6" /><geom name="mesh_302_7" class="object/collision" mesh="mesh_302_7" /><geom name="mesh_302_8" class="object/collision" mesh="mesh_302_8" /><geom name="mesh_302_9" class="object/collision" mesh="mesh_302_9" /><geom name="mesh_302_10" class="object/collision" mesh="mesh_302_10" /></body>
+  </worldbody>
+  
+</mujoco>

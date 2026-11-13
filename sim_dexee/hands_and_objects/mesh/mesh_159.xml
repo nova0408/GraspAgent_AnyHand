@@ -1,0 +1,13 @@
+<mujoco model="mesh_159">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_159" file="object/mesh_159/gd_donut_poisson_006_scaled_vox.obj" /><mesh name="mesh_159_0" file="object/mesh_159/output_parts/part_0.obj" /><mesh name="mesh_159_1" file="object/mesh_159/output_parts/part_1.obj" /><mesh name="mesh_159_2" file="object/mesh_159/output_parts/part_2.obj" /><mesh name="mesh_159_3" file="object/mesh_159/output_parts/part_3.obj" /><mesh name="mesh_159_4" file="object/mesh_159/output_parts/part_4.obj" /><mesh name="mesh_159_5" file="object/mesh_159/output_parts/part_5.obj" /><mesh name="mesh_159_6" file="object/mesh_159/output_parts/part_6.obj" /><mesh name="mesh_159_7" file="object/mesh_159/output_parts/part_7.obj" /><mesh name="mesh_159_8" file="object/mesh_159/output_parts/part_8.obj" /><mesh name="mesh_159_9" file="object/mesh_159/output_parts/part_9.obj" /><mesh name="mesh_159_10" file="object/mesh_159/output_parts/part_10.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_159" class="object/visual" mesh="mesh_159" /><geom name="mesh_159_0" class="object/collision" mesh="mesh_159_0" /><geom name="mesh_159_1" class="object/collision" mesh="mesh_159_1" /><geom name="mesh_159_2" class="object/collision" mesh="mesh_159_2" /><geom name="mesh_159_3" class="object/collision" mesh="mesh_159_3" /><geom name="mesh_159_4" class="object/collision" mesh="mesh_159_4" /><geom name="mesh_159_5" class="object/collision" mesh="mesh_159_5" /><geom name="mesh_159_6" class="object/collision" mesh="mesh_159_6" /><geom name="mesh_159_7" class="object/collision" mesh="mesh_159_7" /><geom name="mesh_159_8" class="object/collision" mesh="mesh_159_8" /><geom name="mesh_159_9" class="object/collision" mesh="mesh_159_9" /><geom name="mesh_159_10" class="object/collision" mesh="mesh_159_10" /></body>
+  </worldbody>
+  
+</mujoco>

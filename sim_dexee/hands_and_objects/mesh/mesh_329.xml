@@ -1,0 +1,13 @@
+<mujoco model="mesh_329">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_329" file="object/mesh_329/gd_stapler_poisson_011_scaled_vox.obj" /><mesh name="mesh_329_0" file="object/mesh_329/output_parts/part_0.obj" /><mesh name="mesh_329_1" file="object/mesh_329/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_329" class="object/visual" mesh="mesh_329" /><geom name="mesh_329_0" class="object/collision" mesh="mesh_329_0" /><geom name="mesh_329_1" class="object/collision" mesh="mesh_329_1" /></body>
+  </worldbody>
+  
+</mujoco>

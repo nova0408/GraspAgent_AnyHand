@@ -1,0 +1,13 @@
+<mujoco model="mesh_161">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_161" file="object/mesh_161/gd_starfruit_poisson_002_scaled_vox.obj" /><mesh name="mesh_161_0" file="object/mesh_161/output_parts/part_0.obj" /><mesh name="mesh_161_1" file="object/mesh_161/output_parts/part_1.obj" /><mesh name="mesh_161_2" file="object/mesh_161/output_parts/part_2.obj" /><mesh name="mesh_161_3" file="object/mesh_161/output_parts/part_3.obj" /><mesh name="mesh_161_4" file="object/mesh_161/output_parts/part_4.obj" /><mesh name="mesh_161_5" file="object/mesh_161/output_parts/part_5.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_161" class="object/visual" mesh="mesh_161" /><geom name="mesh_161_0" class="object/collision" mesh="mesh_161_0" /><geom name="mesh_161_1" class="object/collision" mesh="mesh_161_1" /><geom name="mesh_161_2" class="object/collision" mesh="mesh_161_2" /><geom name="mesh_161_3" class="object/collision" mesh="mesh_161_3" /><geom name="mesh_161_4" class="object/collision" mesh="mesh_161_4" /><geom name="mesh_161_5" class="object/collision" mesh="mesh_161_5" /></body>
+  </worldbody>
+  
+</mujoco>

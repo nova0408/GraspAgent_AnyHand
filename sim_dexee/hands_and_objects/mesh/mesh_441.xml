@@ -1,0 +1,13 @@
+<mujoco model="mesh_441">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_441" file="object/mesh_441/others_hny_toys_4_vox.obj" /><mesh name="mesh_441_0" file="object/mesh_441/output_parts/part_0.obj" /><mesh name="mesh_441_1" file="object/mesh_441/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_441" class="object/visual" mesh="mesh_441" /><geom name="mesh_441_0" class="object/collision" mesh="mesh_441_0" /><geom name="mesh_441_1" class="object/collision" mesh="mesh_441_1" /></body>
+  </worldbody>
+  
+</mujoco>

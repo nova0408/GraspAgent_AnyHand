@@ -1,0 +1,13 @@
+<mujoco model="mesh_568">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_568" file="object/mesh_568/bear_stationery_box_vox.obj" /><mesh name="mesh_568_0" file="object/mesh_568/output_parts/part_0.obj" /><mesh name="mesh_568_1" file="object/mesh_568/output_parts/part_1.obj" /><mesh name="mesh_568_2" file="object/mesh_568/output_parts/part_2.obj" /><mesh name="mesh_568_3" file="object/mesh_568/output_parts/part_3.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_568" class="object/visual" mesh="mesh_568" /><geom name="mesh_568_0" class="object/collision" mesh="mesh_568_0" /><geom name="mesh_568_1" class="object/collision" mesh="mesh_568_1" /><geom name="mesh_568_2" class="object/collision" mesh="mesh_568_2" /><geom name="mesh_568_3" class="object/collision" mesh="mesh_568_3" /></body>
+  </worldbody>
+  
+</mujoco>

@@ -1,0 +1,13 @@
+<mujoco model="mesh_618">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_618" file="object/mesh_618/gd_stapler_poisson_022_scaled_vox.obj" /><mesh name="mesh_618_0" file="object/mesh_618/output_parts/part_0.obj" /><mesh name="mesh_618_1" file="object/mesh_618/output_parts/part_1.obj" /><mesh name="mesh_618_2" file="object/mesh_618/output_parts/part_2.obj" /><mesh name="mesh_618_3" file="object/mesh_618/output_parts/part_3.obj" /><mesh name="mesh_618_4" file="object/mesh_618/output_parts/part_4.obj" /><mesh name="mesh_618_5" file="object/mesh_618/output_parts/part_5.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_618" class="object/visual" mesh="mesh_618" /><geom name="mesh_618_0" class="object/collision" mesh="mesh_618_0" /><geom name="mesh_618_1" class="object/collision" mesh="mesh_618_1" /><geom name="mesh_618_2" class="object/collision" mesh="mesh_618_2" /><geom name="mesh_618_3" class="object/collision" mesh="mesh_618_3" /><geom name="mesh_618_4" class="object/collision" mesh="mesh_618_4" /><geom name="mesh_618_5" class="object/collision" mesh="mesh_618_5" /></body>
+  </worldbody>
+  
+</mujoco>

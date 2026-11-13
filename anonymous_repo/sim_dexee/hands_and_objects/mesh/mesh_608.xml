@@ -1,0 +1,13 @@
+<mujoco model="mesh_608">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_608" file="object/mesh_608/BHAM_D_57_full_smooth_vox.obj" /><mesh name="mesh_608_0" file="object/mesh_608/output_parts/part_0.obj" /><mesh name="mesh_608_1" file="object/mesh_608/output_parts/part_1.obj" /><mesh name="mesh_608_2" file="object/mesh_608/output_parts/part_2.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_608" class="object/visual" mesh="mesh_608" /><geom name="mesh_608_0" class="object/collision" mesh="mesh_608_0" /><geom name="mesh_608_1" class="object/collision" mesh="mesh_608_1" /><geom name="mesh_608_2" class="object/collision" mesh="mesh_608_2" /></body>
+  </worldbody>
+  
+</mujoco>

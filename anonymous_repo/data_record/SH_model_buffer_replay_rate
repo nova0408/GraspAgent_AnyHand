@@ -1,0 +1,8 @@
+[main]
+moving_rate_ = 0.1376
+counter_ = 123977.0
+momentum_ = 0.1376
+convergence_ = 0.0096
+_var_x = 0.0
+var_x_ = 0.002
+

@@ -1,0 +1,13 @@
+<mujoco model="mesh_522">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_522" file="object/mesh_522/others_LetterP_800_tex_vox.obj" /><mesh name="mesh_522_0" file="object/mesh_522/output_parts/part_0.obj" /><mesh name="mesh_522_1" file="object/mesh_522/output_parts/part_1.obj" /><mesh name="mesh_522_2" file="object/mesh_522/output_parts/part_2.obj" /><mesh name="mesh_522_3" file="object/mesh_522/output_parts/part_3.obj" /><mesh name="mesh_522_4" file="object/mesh_522/output_parts/part_4.obj" /><mesh name="mesh_522_5" file="object/mesh_522/output_parts/part_5.obj" /><mesh name="mesh_522_6" file="object/mesh_522/output_parts/part_6.obj" /><mesh name="mesh_522_7" file="object/mesh_522/output_parts/part_7.obj" /><mesh name="mesh_522_8" file="object/mesh_522/output_parts/part_8.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_522" class="object/visual" mesh="mesh_522" /><geom name="mesh_522_0" class="object/collision" mesh="mesh_522_0" /><geom name="mesh_522_1" class="object/collision" mesh="mesh_522_1" /><geom name="mesh_522_2" class="object/collision" mesh="mesh_522_2" /><geom name="mesh_522_3" class="object/collision" mesh="mesh_522_3" /><geom name="mesh_522_4" class="object/collision" mesh="mesh_522_4" /><geom name="mesh_522_5" class="object/collision" mesh="mesh_522_5" /><geom name="mesh_522_6" class="object/collision" mesh="mesh_522_6" /><geom name="mesh_522_7" class="object/collision" mesh="mesh_522_7" /><geom name="mesh_522_8" class="object/collision" mesh="mesh_522_8" /></body>
+  </worldbody>
+  
+</mujoco>

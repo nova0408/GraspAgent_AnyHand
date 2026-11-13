@@ -1,0 +1,13 @@
+<mujoco model="mesh_228">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_228" file="object/mesh_228/BHAM_D_140_full_smooth_vox.obj" /><mesh name="mesh_228_0" file="object/mesh_228/output_parts/part_0.obj" /><mesh name="mesh_228_1" file="object/mesh_228/output_parts/part_1.obj" /><mesh name="mesh_228_2" file="object/mesh_228/output_parts/part_2.obj" /><mesh name="mesh_228_3" file="object/mesh_228/output_parts/part_3.obj" /><mesh name="mesh_228_4" file="object/mesh_228/output_parts/part_4.obj" /><mesh name="mesh_228_5" file="object/mesh_228/output_parts/part_5.obj" /><mesh name="mesh_228_6" file="object/mesh_228/output_parts/part_6.obj" /><mesh name="mesh_228_7" file="object/mesh_228/output_parts/part_7.obj" /><mesh name="mesh_228_8" file="object/mesh_228/output_parts/part_8.obj" /><mesh name="mesh_228_9" file="object/mesh_228/output_parts/part_9.obj" /><mesh name="mesh_228_10" file="object/mesh_228/output_parts/part_10.obj" /><mesh name="mesh_228_11" file="object/mesh_228/output_parts/part_11.obj" /><mesh name="mesh_228_12" file="object/mesh_228/output_parts/part_12.obj" /><mesh name="mesh_228_13" file="object/mesh_228/output_parts/part_13.obj" /><mesh name="mesh_228_14" file="object/mesh_228/output_parts/part_14.obj" /><mesh name="mesh_228_15" file="object/mesh_228/output_parts/part_15.obj" /><mesh name="mesh_228_16" file="object/mesh_228/output_parts/part_16.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_228" class="object/visual" mesh="mesh_228" /><geom name="mesh_228_0" class="object/collision" mesh="mesh_228_0" /><geom name="mesh_228_1" class="object/collision" mesh="mesh_228_1" /><geom name="mesh_228_2" class="object/collision" mesh="mesh_228_2" /><geom name="mesh_228_3" class="object/collision" mesh="mesh_228_3" /><geom name="mesh_228_4" class="object/collision" mesh="mesh_228_4" /><geom name="mesh_228_5" class="object/collision" mesh="mesh_228_5" /><geom name="mesh_228_6" class="object/collision" mesh="mesh_228_6" /><geom name="mesh_228_7" class="object/collision" mesh="mesh_228_7" /><geom name="mesh_228_8" class="object/collision" mesh="mesh_228_8" /><geom name="mesh_228_9" class="object/collision" mesh="mesh_228_9" /><geom name="mesh_228_10" class="object/collision" mesh="mesh_228_10" /><geom name="mesh_228_11" class="object/collision" mesh="mesh_228_11" /><geom name="mesh_228_12" class="object/collision" mesh="mesh_228_12" /><geom name="mesh_228_13" class="object/collision" mesh="mesh_228_13" /><geom name="mesh_228_14" class="object/collision" mesh="mesh_228_14" /><geom name="mesh_228_15" class="object/collision" mesh="mesh_228_15" /><geom name="mesh_228_16" class="object/collision" mesh="mesh_228_16" /></body>
+  </worldbody>
+  
+</mujoco>

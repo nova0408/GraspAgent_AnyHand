@@ -1,0 +1,13 @@
+<mujoco model="010">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="010" file="models/010/nontextured_simplified.obj" /><mesh name="010_0" file="models/010/output_parts/part_0.obj" /><mesh name="010_1" file="models/010/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="010" class="object/visual" mesh="010" /><geom name="010_0" class="object/collision" mesh="010_0" /><geom name="010_1" class="object/collision" mesh="010_1" /></body>
+  </worldbody>
+  
+</mujoco>

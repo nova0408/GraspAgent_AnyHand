@@ -1,0 +1,13 @@
+<mujoco model="mesh_303">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_303" file="object/mesh_303/gd_shampoo_new_poisson_001_scaled_vox.obj" /><mesh name="mesh_303_0" file="object/mesh_303/output_parts/part_0.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_303" class="object/visual" mesh="mesh_303" /><geom name="mesh_303_0" class="object/collision" mesh="mesh_303_0" /></body>
+  </worldbody>
+  
+</mujoco>

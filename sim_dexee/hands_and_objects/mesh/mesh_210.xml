@@ -1,0 +1,13 @@
+<mujoco model="mesh_210">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_210" file="object/mesh_210/tless_obj_000026_vox.obj" /><mesh name="mesh_210_0" file="object/mesh_210/output_parts/part_0.obj" /><mesh name="mesh_210_1" file="object/mesh_210/output_parts/part_1.obj" /><mesh name="mesh_210_2" file="object/mesh_210/output_parts/part_2.obj" /><mesh name="mesh_210_3" file="object/mesh_210/output_parts/part_3.obj" /><mesh name="mesh_210_4" file="object/mesh_210/output_parts/part_4.obj" /><mesh name="mesh_210_5" file="object/mesh_210/output_parts/part_5.obj" /><mesh name="mesh_210_6" file="object/mesh_210/output_parts/part_6.obj" /><mesh name="mesh_210_7" file="object/mesh_210/output_parts/part_7.obj" /><mesh name="mesh_210_8" file="object/mesh_210/output_parts/part_8.obj" /><mesh name="mesh_210_9" file="object/mesh_210/output_parts/part_9.obj" /><mesh name="mesh_210_10" file="object/mesh_210/output_parts/part_10.obj" /><mesh name="mesh_210_11" file="object/mesh_210/output_parts/part_11.obj" /><mesh name="mesh_210_12" file="object/mesh_210/output_parts/part_12.obj" /><mesh name="mesh_210_13" file="object/mesh_210/output_parts/part_13.obj" /><mesh name="mesh_210_14" file="object/mesh_210/output_parts/part_14.obj" /><mesh name="mesh_210_15" file="object/mesh_210/output_parts/part_15.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_210" class="object/visual" mesh="mesh_210" /><geom name="mesh_210_0" class="object/collision" mesh="mesh_210_0" /><geom name="mesh_210_1" class="object/collision" mesh="mesh_210_1" /><geom name="mesh_210_2" class="object/collision" mesh="mesh_210_2" /><geom name="mesh_210_3" class="object/collision" mesh="mesh_210_3" /><geom name="mesh_210_4" class="object/collision" mesh="mesh_210_4" /><geom name="mesh_210_5" class="object/collision" mesh="mesh_210_5" /><geom name="mesh_210_6" class="object/collision" mesh="mesh_210_6" /><geom name="mesh_210_7" class="object/collision" mesh="mesh_210_7" /><geom name="mesh_210_8" class="object/collision" mesh="mesh_210_8" /><geom name="mesh_210_9" class="object/collision" mesh="mesh_210_9" /><geom name="mesh_210_10" class="object/collision" mesh="mesh_210_10" /><geom name="mesh_210_11" class="object/collision" mesh="mesh_210_11" /><geom name="mesh_210_12" class="object/collision" mesh="mesh_210_12" /><geom name="mesh_210_13" class="object/collision" mesh="mesh_210_13" /><geom name="mesh_210_14" class="object/collision" mesh="mesh_210_14" /><geom name="mesh_210_15" class="object/collision" mesh="mesh_210_15" /></body>
+  </worldbody>
+  
+</mujoco>

@@ -1,0 +1,13 @@
+<mujoco model="mesh_282">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_282" file="object/mesh_282/gd_starfruit_poisson_000_scaled_vox.obj" /><mesh name="mesh_282_0" file="object/mesh_282/output_parts/part_0.obj" /><mesh name="mesh_282_1" file="object/mesh_282/output_parts/part_1.obj" /><mesh name="mesh_282_2" file="object/mesh_282/output_parts/part_2.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_282" class="object/visual" mesh="mesh_282" /><geom name="mesh_282_0" class="object/collision" mesh="mesh_282_0" /><geom name="mesh_282_1" class="object/collision" mesh="mesh_282_1" /><geom name="mesh_282_2" class="object/collision" mesh="mesh_282_2" /></body>
+  </worldbody>
+  
+</mujoco>

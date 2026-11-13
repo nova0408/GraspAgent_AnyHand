@@ -1,0 +1,13 @@
+<mujoco model="mesh_481">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_481" file="object/mesh_481/gd_dumpbell_poisson_001_scaled_vox.obj" /><mesh name="mesh_481_0" file="object/mesh_481/output_parts/part_0.obj" /><mesh name="mesh_481_1" file="object/mesh_481/output_parts/part_1.obj" /><mesh name="mesh_481_2" file="object/mesh_481/output_parts/part_2.obj" /><mesh name="mesh_481_3" file="object/mesh_481/output_parts/part_3.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_481" class="object/visual" mesh="mesh_481" /><geom name="mesh_481_0" class="object/collision" mesh="mesh_481_0" /><geom name="mesh_481_1" class="object/collision" mesh="mesh_481_1" /><geom name="mesh_481_2" class="object/collision" mesh="mesh_481_2" /><geom name="mesh_481_3" class="object/collision" mesh="mesh_481_3" /></body>
+  </worldbody>
+  
+</mujoco>

@@ -1,0 +1,13 @@
+<mujoco model="mesh_461">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_461" file="object/mesh_461/gd_toy_poisson_024_scaled_vox.obj" /><mesh name="mesh_461_0" file="object/mesh_461/output_parts/part_0.obj" /><mesh name="mesh_461_1" file="object/mesh_461/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_461" class="object/visual" mesh="mesh_461" /><geom name="mesh_461_0" class="object/collision" mesh="mesh_461_0" /><geom name="mesh_461_1" class="object/collision" mesh="mesh_461_1" /></body>
+  </worldbody>
+  
+</mujoco>

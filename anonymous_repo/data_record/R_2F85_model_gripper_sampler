@@ -1,0 +1,9 @@
+[main]
+loss_moving_average = 0.241065
+moving_accuracy = 1.0
+convergence = -0.0009410248977661132
+momentum = 0.1688247
+counter = 3475.0
+label_balance_indicator = None
+prediction_balance_indicator = None
+

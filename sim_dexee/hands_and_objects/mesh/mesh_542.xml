@@ -1,0 +1,13 @@
+<mujoco model="mesh_542">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_542" file="object/mesh_542/gd_tetra_pak_poisson_010_scaled_vox.obj" /><mesh name="mesh_542_0" file="object/mesh_542/output_parts/part_0.obj" /><mesh name="mesh_542_1" file="object/mesh_542/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_542" class="object/visual" mesh="mesh_542" /><geom name="mesh_542_0" class="object/collision" mesh="mesh_542_0" /><geom name="mesh_542_1" class="object/collision" mesh="mesh_542_1" /></body>
+  </worldbody>
+  
+</mujoco>

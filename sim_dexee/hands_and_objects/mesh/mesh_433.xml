@@ -1,0 +1,13 @@
+<mujoco model="mesh_433">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_433" file="object/mesh_433/gd_flashlight_poisson_014_scaled_vox.obj" /><mesh name="mesh_433_0" file="object/mesh_433/output_parts/part_0.obj" /><mesh name="mesh_433_1" file="object/mesh_433/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_433" class="object/visual" mesh="mesh_433" /><geom name="mesh_433_0" class="object/collision" mesh="mesh_433_0" /><geom name="mesh_433_1" class="object/collision" mesh="mesh_433_1" /></body>
+  </worldbody>
+  
+</mujoco>

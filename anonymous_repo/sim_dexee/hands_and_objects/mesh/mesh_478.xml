@@ -1,0 +1,13 @@
+<mujoco model="mesh_478">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_478" file="object/mesh_478/gd_rubik_cube_poisson_004_scaled_vox.obj" /><mesh name="mesh_478_0" file="object/mesh_478/output_parts/part_0.obj" /><mesh name="mesh_478_1" file="object/mesh_478/output_parts/part_1.obj" /><mesh name="mesh_478_2" file="object/mesh_478/output_parts/part_2.obj" /><mesh name="mesh_478_3" file="object/mesh_478/output_parts/part_3.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_478" class="object/visual" mesh="mesh_478" /><geom name="mesh_478_0" class="object/collision" mesh="mesh_478_0" /><geom name="mesh_478_1" class="object/collision" mesh="mesh_478_1" /><geom name="mesh_478_2" class="object/collision" mesh="mesh_478_2" /><geom name="mesh_478_3" class="object/collision" mesh="mesh_478_3" /></body>
+  </worldbody>
+  
+</mujoco>

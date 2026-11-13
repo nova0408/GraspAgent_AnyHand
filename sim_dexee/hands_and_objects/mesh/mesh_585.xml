@@ -1,0 +1,13 @@
+<mujoco model="mesh_585">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_585" file="object/mesh_585/ruapc_obj_000008_vox.obj" /><mesh name="mesh_585_0" file="object/mesh_585/output_parts/part_0.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_585" class="object/visual" mesh="mesh_585" /><geom name="mesh_585_0" class="object/collision" mesh="mesh_585_0" /></body>
+  </worldbody>
+  
+</mujoco>

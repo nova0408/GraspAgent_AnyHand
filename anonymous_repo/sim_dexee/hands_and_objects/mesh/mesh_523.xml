@@ -1,0 +1,13 @@
+<mujoco model="mesh_523">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_523" file="object/mesh_523/gd_tetra_pak_poisson_000_scaled_vox.obj" /><mesh name="mesh_523_0" file="object/mesh_523/output_parts/part_0.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_523" class="object/visual" mesh="mesh_523" /><geom name="mesh_523_0" class="object/collision" mesh="mesh_523_0" /></body>
+  </worldbody>
+  
+</mujoco>

@@ -1,0 +1,13 @@
+<mujoco model="mesh_391">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_391" file="object/mesh_391/kit_SauceThickener_scaled_vox.obj" /><mesh name="mesh_391_0" file="object/mesh_391/output_parts/part_0.obj" /><mesh name="mesh_391_1" file="object/mesh_391/output_parts/part_1.obj" /><mesh name="mesh_391_2" file="object/mesh_391/output_parts/part_2.obj" /><mesh name="mesh_391_3" file="object/mesh_391/output_parts/part_3.obj" /><mesh name="mesh_391_4" file="object/mesh_391/output_parts/part_4.obj" /><mesh name="mesh_391_5" file="object/mesh_391/output_parts/part_5.obj" /><mesh name="mesh_391_6" file="object/mesh_391/output_parts/part_6.obj" /><mesh name="mesh_391_7" file="object/mesh_391/output_parts/part_7.obj" /><mesh name="mesh_391_8" file="object/mesh_391/output_parts/part_8.obj" /><mesh name="mesh_391_9" file="object/mesh_391/output_parts/part_9.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_391" class="object/visual" mesh="mesh_391" /><geom name="mesh_391_0" class="object/collision" mesh="mesh_391_0" /><geom name="mesh_391_1" class="object/collision" mesh="mesh_391_1" /><geom name="mesh_391_2" class="object/collision" mesh="mesh_391_2" /><geom name="mesh_391_3" class="object/collision" mesh="mesh_391_3" /><geom name="mesh_391_4" class="object/collision" mesh="mesh_391_4" /><geom name="mesh_391_5" class="object/collision" mesh="mesh_391_5" /><geom name="mesh_391_6" class="object/collision" mesh="mesh_391_6" /><geom name="mesh_391_7" class="object/collision" mesh="mesh_391_7" /><geom name="mesh_391_8" class="object/collision" mesh="mesh_391_8" /><geom name="mesh_391_9" class="object/collision" mesh="mesh_391_9" /></body>
+  </worldbody>
+  
+</mujoco>

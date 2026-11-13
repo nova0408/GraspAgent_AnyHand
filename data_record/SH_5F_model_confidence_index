@@ -1,0 +1,8 @@
+[main]
+moving_rate_ = tensor(0.0559, device='cuda:0')
+counter_ = 6
+momentum_ = tensor(0.0534, device='cuda:0')
+convergence_ = tensor(8.9375e-05, device='cuda:0')
+_var_x = 0.0
+var_x_ = tensor(0.0498, device='cuda:0')
+

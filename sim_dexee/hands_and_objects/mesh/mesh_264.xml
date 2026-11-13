@@ -1,0 +1,13 @@
+<mujoco model="mesh_264">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_264" file="object/mesh_264/gd_flashlight_poisson_009_scaled_vox.obj" /><mesh name="mesh_264_0" file="object/mesh_264/output_parts/part_0.obj" /><mesh name="mesh_264_1" file="object/mesh_264/output_parts/part_1.obj" /><mesh name="mesh_264_2" file="object/mesh_264/output_parts/part_2.obj" /><mesh name="mesh_264_3" file="object/mesh_264/output_parts/part_3.obj" /><mesh name="mesh_264_4" file="object/mesh_264/output_parts/part_4.obj" /><mesh name="mesh_264_5" file="object/mesh_264/output_parts/part_5.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_264" class="object/visual" mesh="mesh_264" /><geom name="mesh_264_0" class="object/collision" mesh="mesh_264_0" /><geom name="mesh_264_1" class="object/collision" mesh="mesh_264_1" /><geom name="mesh_264_2" class="object/collision" mesh="mesh_264_2" /><geom name="mesh_264_3" class="object/collision" mesh="mesh_264_3" /><geom name="mesh_264_4" class="object/collision" mesh="mesh_264_4" /><geom name="mesh_264_5" class="object/collision" mesh="mesh_264_5" /></body>
+  </worldbody>
+  
+</mujoco>

@@ -1,0 +1,13 @@
+<mujoco model="mesh_140">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_140" file="object/mesh_140/itodd_obj_000028_vox.obj" /><mesh name="mesh_140_0" file="object/mesh_140/output_parts/part_0.obj" /><mesh name="mesh_140_1" file="object/mesh_140/output_parts/part_1.obj" /><mesh name="mesh_140_2" file="object/mesh_140/output_parts/part_2.obj" /><mesh name="mesh_140_3" file="object/mesh_140/output_parts/part_3.obj" /><mesh name="mesh_140_4" file="object/mesh_140/output_parts/part_4.obj" /><mesh name="mesh_140_5" file="object/mesh_140/output_parts/part_5.obj" /><mesh name="mesh_140_6" file="object/mesh_140/output_parts/part_6.obj" /><mesh name="mesh_140_7" file="object/mesh_140/output_parts/part_7.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_140" class="object/visual" mesh="mesh_140" /><geom name="mesh_140_0" class="object/collision" mesh="mesh_140_0" /><geom name="mesh_140_1" class="object/collision" mesh="mesh_140_1" /><geom name="mesh_140_2" class="object/collision" mesh="mesh_140_2" /><geom name="mesh_140_3" class="object/collision" mesh="mesh_140_3" /><geom name="mesh_140_4" class="object/collision" mesh="mesh_140_4" /><geom name="mesh_140_5" class="object/collision" mesh="mesh_140_5" /><geom name="mesh_140_6" class="object/collision" mesh="mesh_140_6" /><geom name="mesh_140_7" class="object/collision" mesh="mesh_140_7" /></body>
+  </worldbody>
+  
+</mujoco>

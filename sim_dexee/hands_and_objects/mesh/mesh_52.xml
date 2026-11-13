@@ -1,0 +1,13 @@
+<mujoco model="040">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="040" file="models/040/nontextured_simplified.obj" /><mesh name="040_0" file="models/040/output_parts/part_0.obj" /><mesh name="040_1" file="models/040/output_parts/part_1.obj" /><mesh name="040_2" file="models/040/output_parts/part_2.obj" /><mesh name="040_3" file="models/040/output_parts/part_3.obj" /><mesh name="040_4" file="models/040/output_parts/part_4.obj" /><mesh name="040_5" file="models/040/output_parts/part_5.obj" /><mesh name="040_6" file="models/040/output_parts/part_6.obj" /><mesh name="040_7" file="models/040/output_parts/part_7.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="040" class="object/visual" mesh="040" /><geom name="040_0" class="object/collision" mesh="040_0" /><geom name="040_1" class="object/collision" mesh="040_1" /><geom name="040_2" class="object/collision" mesh="040_2" /><geom name="040_3" class="object/collision" mesh="040_3" /><geom name="040_4" class="object/collision" mesh="040_4" /><geom name="040_5" class="object/collision" mesh="040_5" /><geom name="040_6" class="object/collision" mesh="040_6" /><geom name="040_7" class="object/collision" mesh="040_7" /></body>
+  </worldbody>
+  
+</mujoco>

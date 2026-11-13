@@ -1,0 +1,13 @@
+<mujoco model="064">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="064" file="models/064/nontextured_simplified.obj" /><mesh name="064_0" file="models/064/output_parts/part_0.obj" /><mesh name="064_1" file="models/064/output_parts/part_1.obj" /><mesh name="064_2" file="models/064/output_parts/part_2.obj" /><mesh name="064_3" file="models/064/output_parts/part_3.obj" /><mesh name="064_4" file="models/064/output_parts/part_4.obj" /><mesh name="064_5" file="models/064/output_parts/part_5.obj" /><mesh name="064_6" file="models/064/output_parts/part_6.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="064" class="object/visual" mesh="064" /><geom name="064_0" class="object/collision" mesh="064_0" /><geom name="064_1" class="object/collision" mesh="064_1" /><geom name="064_2" class="object/collision" mesh="064_2" /><geom name="064_3" class="object/collision" mesh="064_3" /><geom name="064_4" class="object/collision" mesh="064_4" /><geom name="064_5" class="object/collision" mesh="064_5" /><geom name="064_6" class="object/collision" mesh="064_6" /></body>
+  </worldbody>
+  
+</mujoco>

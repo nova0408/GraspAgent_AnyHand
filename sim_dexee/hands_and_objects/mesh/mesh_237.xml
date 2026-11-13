@@ -1,0 +1,13 @@
+<mujoco model="mesh_237">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_237" file="object/mesh_237/kit_BakingSoda_scaled_vox.obj" /><mesh name="mesh_237_0" file="object/mesh_237/output_parts/part_0.obj" /><mesh name="mesh_237_1" file="object/mesh_237/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_237" class="object/visual" mesh="mesh_237" /><geom name="mesh_237_0" class="object/collision" mesh="mesh_237_0" /><geom name="mesh_237_1" class="object/collision" mesh="mesh_237_1" /></body>
+  </worldbody>
+  
+</mujoco>

@@ -1,0 +1,13 @@
+<mujoco model="mesh_349">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_349" file="object/mesh_349/3dnet_1197_vox.obj" /><mesh name="mesh_349_0" file="object/mesh_349/output_parts/part_0.obj" /><mesh name="mesh_349_1" file="object/mesh_349/output_parts/part_1.obj" /><mesh name="mesh_349_2" file="object/mesh_349/output_parts/part_2.obj" /><mesh name="mesh_349_3" file="object/mesh_349/output_parts/part_3.obj" /><mesh name="mesh_349_4" file="object/mesh_349/output_parts/part_4.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_349" class="object/visual" mesh="mesh_349" /><geom name="mesh_349_0" class="object/collision" mesh="mesh_349_0" /><geom name="mesh_349_1" class="object/collision" mesh="mesh_349_1" /><geom name="mesh_349_2" class="object/collision" mesh="mesh_349_2" /><geom name="mesh_349_3" class="object/collision" mesh="mesh_349_3" /><geom name="mesh_349_4" class="object/collision" mesh="mesh_349_4" /></body>
+  </worldbody>
+  
+</mujoco>

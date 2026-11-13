@@ -1,0 +1,13 @@
+<mujoco model="012">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="012" file="models/012/nontextured_simplified.obj" /><mesh name="012_0" file="models/012/output_parts/part_0.obj" /><mesh name="012_1" file="models/012/output_parts/part_1.obj" /><mesh name="012_2" file="models/012/output_parts/part_2.obj" /><mesh name="012_3" file="models/012/output_parts/part_3.obj" /><mesh name="012_4" file="models/012/output_parts/part_4.obj" /><mesh name="012_5" file="models/012/output_parts/part_5.obj" /><mesh name="012_6" file="models/012/output_parts/part_6.obj" /><mesh name="012_7" file="models/012/output_parts/part_7.obj" /><mesh name="012_8" file="models/012/output_parts/part_8.obj" /><mesh name="012_9" file="models/012/output_parts/part_9.obj" /><mesh name="012_10" file="models/012/output_parts/part_10.obj" /><mesh name="012_11" file="models/012/output_parts/part_11.obj" /><mesh name="012_12" file="models/012/output_parts/part_12.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="012" class="object/visual" mesh="012" /><geom name="012_0" class="object/collision" mesh="012_0" /><geom name="012_1" class="object/collision" mesh="012_1" /><geom name="012_2" class="object/collision" mesh="012_2" /><geom name="012_3" class="object/collision" mesh="012_3" /><geom name="012_4" class="object/collision" mesh="012_4" /><geom name="012_5" class="object/collision" mesh="012_5" /><geom name="012_6" class="object/collision" mesh="012_6" /><geom name="012_7" class="object/collision" mesh="012_7" /><geom name="012_8" class="object/collision" mesh="012_8" /><geom name="012_9" class="object/collision" mesh="012_9" /><geom name="012_10" class="object/collision" mesh="012_10" /><geom name="012_11" class="object/collision" mesh="012_11" /><geom name="012_12" class="object/collision" mesh="012_12" /></body>
+  </worldbody>
+  
+</mujoco>

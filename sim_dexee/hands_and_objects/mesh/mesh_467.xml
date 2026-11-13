@@ -1,0 +1,13 @@
+<mujoco model="mesh_467">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_467" file="object/mesh_467/blue_moon_vox.obj" /><mesh name="mesh_467_0" file="object/mesh_467/output_parts/part_0.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_467" class="object/visual" mesh="mesh_467" /><geom name="mesh_467_0" class="object/collision" mesh="mesh_467_0" /></body>
+  </worldbody>
+  
+</mujoco>

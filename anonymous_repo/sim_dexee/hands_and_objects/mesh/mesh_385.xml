@@ -1,0 +1,13 @@
+<mujoco model="mesh_385">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_385" file="object/mesh_385/kit_Seal_scaled_vox.obj" /><mesh name="mesh_385_0" file="object/mesh_385/output_parts/part_0.obj" /><mesh name="mesh_385_1" file="object/mesh_385/output_parts/part_1.obj" /><mesh name="mesh_385_2" file="object/mesh_385/output_parts/part_2.obj" /><mesh name="mesh_385_3" file="object/mesh_385/output_parts/part_3.obj" /><mesh name="mesh_385_4" file="object/mesh_385/output_parts/part_4.obj" /><mesh name="mesh_385_5" file="object/mesh_385/output_parts/part_5.obj" /><mesh name="mesh_385_6" file="object/mesh_385/output_parts/part_6.obj" /><mesh name="mesh_385_7" file="object/mesh_385/output_parts/part_7.obj" /><mesh name="mesh_385_8" file="object/mesh_385/output_parts/part_8.obj" /><mesh name="mesh_385_9" file="object/mesh_385/output_parts/part_9.obj" /><mesh name="mesh_385_10" file="object/mesh_385/output_parts/part_10.obj" /><mesh name="mesh_385_11" file="object/mesh_385/output_parts/part_11.obj" /><mesh name="mesh_385_12" file="object/mesh_385/output_parts/part_12.obj" /><mesh name="mesh_385_13" file="object/mesh_385/output_parts/part_13.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_385" class="object/visual" mesh="mesh_385" /><geom name="mesh_385_0" class="object/collision" mesh="mesh_385_0" /><geom name="mesh_385_1" class="object/collision" mesh="mesh_385_1" /><geom name="mesh_385_2" class="object/collision" mesh="mesh_385_2" /><geom name="mesh_385_3" class="object/collision" mesh="mesh_385_3" /><geom name="mesh_385_4" class="object/collision" mesh="mesh_385_4" /><geom name="mesh_385_5" class="object/collision" mesh="mesh_385_5" /><geom name="mesh_385_6" class="object/collision" mesh="mesh_385_6" /><geom name="mesh_385_7" class="object/collision" mesh="mesh_385_7" /><geom name="mesh_385_8" class="object/collision" mesh="mesh_385_8" /><geom name="mesh_385_9" class="object/collision" mesh="mesh_385_9" /><geom name="mesh_385_10" class="object/collision" mesh="mesh_385_10" /><geom name="mesh_385_11" class="object/collision" mesh="mesh_385_11" /><geom name="mesh_385_12" class="object/collision" mesh="mesh_385_12" /><geom name="mesh_385_13" class="object/collision" mesh="mesh_385_13" /></body>
+  </worldbody>
+  
+</mujoco>

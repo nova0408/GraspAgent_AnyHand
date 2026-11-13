@@ -1,0 +1,13 @@
+<mujoco model="008">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="008" file="models/008/nontextured_simplified.obj" /><mesh name="008_0" file="models/008/output_parts/part_0.obj" /><mesh name="008_1" file="models/008/output_parts/part_1.obj" /><mesh name="008_2" file="models/008/output_parts/part_2.obj" /><mesh name="008_3" file="models/008/output_parts/part_3.obj" /><mesh name="008_4" file="models/008/output_parts/part_4.obj" /><mesh name="008_5" file="models/008/output_parts/part_5.obj" /><mesh name="008_6" file="models/008/output_parts/part_6.obj" /><mesh name="008_7" file="models/008/output_parts/part_7.obj" /><mesh name="008_8" file="models/008/output_parts/part_8.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="008" class="object/visual" mesh="008" /><geom name="008_0" class="object/collision" mesh="008_0" /><geom name="008_1" class="object/collision" mesh="008_1" /><geom name="008_2" class="object/collision" mesh="008_2" /><geom name="008_3" class="object/collision" mesh="008_3" /><geom name="008_4" class="object/collision" mesh="008_4" /><geom name="008_5" class="object/collision" mesh="008_5" /><geom name="008_6" class="object/collision" mesh="008_6" /><geom name="008_7" class="object/collision" mesh="008_7" /><geom name="008_8" class="object/collision" mesh="008_8" /></body>
+  </worldbody>
+  
+</mujoco>

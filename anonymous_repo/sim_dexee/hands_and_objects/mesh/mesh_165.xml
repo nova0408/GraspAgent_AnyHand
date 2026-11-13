@@ -1,0 +1,13 @@
+<mujoco model="mesh_165">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_165" file="object/mesh_165/gd_pliers_poisson_004_scaled_vox.obj" /><mesh name="mesh_165_0" file="object/mesh_165/output_parts/part_0.obj" /><mesh name="mesh_165_1" file="object/mesh_165/output_parts/part_1.obj" /><mesh name="mesh_165_2" file="object/mesh_165/output_parts/part_2.obj" /><mesh name="mesh_165_3" file="object/mesh_165/output_parts/part_3.obj" /><mesh name="mesh_165_4" file="object/mesh_165/output_parts/part_4.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_165" class="object/visual" mesh="mesh_165" /><geom name="mesh_165_0" class="object/collision" mesh="mesh_165_0" /><geom name="mesh_165_1" class="object/collision" mesh="mesh_165_1" /><geom name="mesh_165_2" class="object/collision" mesh="mesh_165_2" /><geom name="mesh_165_3" class="object/collision" mesh="mesh_165_3" /><geom name="mesh_165_4" class="object/collision" mesh="mesh_165_4" /></body>
+  </worldbody>
+  
+</mujoco>

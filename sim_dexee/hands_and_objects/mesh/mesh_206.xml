@@ -1,0 +1,13 @@
+<mujoco model="mesh_206">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_206" file="object/mesh_206/gd_can_poisson_010_scaled_vox.obj" /><mesh name="mesh_206_0" file="object/mesh_206/output_parts/part_0.obj" /><mesh name="mesh_206_1" file="object/mesh_206/output_parts/part_1.obj" /><mesh name="mesh_206_2" file="object/mesh_206/output_parts/part_2.obj" /><mesh name="mesh_206_3" file="object/mesh_206/output_parts/part_3.obj" /><mesh name="mesh_206_4" file="object/mesh_206/output_parts/part_4.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_206" class="object/visual" mesh="mesh_206" /><geom name="mesh_206_0" class="object/collision" mesh="mesh_206_0" /><geom name="mesh_206_1" class="object/collision" mesh="mesh_206_1" /><geom name="mesh_206_2" class="object/collision" mesh="mesh_206_2" /><geom name="mesh_206_3" class="object/collision" mesh="mesh_206_3" /><geom name="mesh_206_4" class="object/collision" mesh="mesh_206_4" /></body>
+  </worldbody>
+  
+</mujoco>

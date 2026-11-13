@@ -1,0 +1,13 @@
+<mujoco model="mesh_518">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_518" file="object/mesh_518/gd_camera_poisson_006_scaled_vox.obj" /><mesh name="mesh_518_0" file="object/mesh_518/output_parts/part_0.obj" /><mesh name="mesh_518_1" file="object/mesh_518/output_parts/part_1.obj" /><mesh name="mesh_518_2" file="object/mesh_518/output_parts/part_2.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_518" class="object/visual" mesh="mesh_518" /><geom name="mesh_518_0" class="object/collision" mesh="mesh_518_0" /><geom name="mesh_518_1" class="object/collision" mesh="mesh_518_1" /><geom name="mesh_518_2" class="object/collision" mesh="mesh_518_2" /></body>
+  </worldbody>
+  
+</mujoco>

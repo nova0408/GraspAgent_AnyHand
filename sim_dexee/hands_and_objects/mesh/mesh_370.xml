@@ -1,0 +1,13 @@
+<mujoco model="mesh_370">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_370" file="object/mesh_370/gd_pliers_poisson_003_scaled_vox.obj" /><mesh name="mesh_370_0" file="object/mesh_370/output_parts/part_0.obj" /><mesh name="mesh_370_1" file="object/mesh_370/output_parts/part_1.obj" /><mesh name="mesh_370_2" file="object/mesh_370/output_parts/part_2.obj" /><mesh name="mesh_370_3" file="object/mesh_370/output_parts/part_3.obj" /><mesh name="mesh_370_4" file="object/mesh_370/output_parts/part_4.obj" /><mesh name="mesh_370_5" file="object/mesh_370/output_parts/part_5.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_370" class="object/visual" mesh="mesh_370" /><geom name="mesh_370_0" class="object/collision" mesh="mesh_370_0" /><geom name="mesh_370_1" class="object/collision" mesh="mesh_370_1" /><geom name="mesh_370_2" class="object/collision" mesh="mesh_370_2" /><geom name="mesh_370_3" class="object/collision" mesh="mesh_370_3" /><geom name="mesh_370_4" class="object/collision" mesh="mesh_370_4" /><geom name="mesh_370_5" class="object/collision" mesh="mesh_370_5" /></body>
+  </worldbody>
+  
+</mujoco>

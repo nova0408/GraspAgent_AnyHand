@@ -1,0 +1,13 @@
+<mujoco model="mesh_184">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_184" file="object/mesh_184/kit_KoalaCandy_scaled_vox.obj" /><mesh name="mesh_184_0" file="object/mesh_184/output_parts/part_0.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_184" class="object/visual" mesh="mesh_184" /><geom name="mesh_184_0" class="object/collision" mesh="mesh_184_0" /></body>
+  </worldbody>
+  
+</mujoco>

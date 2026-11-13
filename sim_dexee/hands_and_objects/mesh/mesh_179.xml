@@ -1,0 +1,13 @@
+<mujoco model="mesh_179">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_179" file="object/mesh_179/kit_DropsCherry_scaled_vox.obj" /><mesh name="mesh_179_0" file="object/mesh_179/output_parts/part_0.obj" /><mesh name="mesh_179_1" file="object/mesh_179/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_179" class="object/visual" mesh="mesh_179" /><geom name="mesh_179_0" class="object/collision" mesh="mesh_179_0" /><geom name="mesh_179_1" class="object/collision" mesh="mesh_179_1" /></body>
+  </worldbody>
+  
+</mujoco>

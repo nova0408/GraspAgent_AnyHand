@@ -1,0 +1,13 @@
+<mujoco model="mesh_335">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_335" file="object/mesh_335/hope_obj_000008_vox.obj" /><mesh name="mesh_335_0" file="object/mesh_335/output_parts/part_0.obj" /><mesh name="mesh_335_1" file="object/mesh_335/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_335" class="object/visual" mesh="mesh_335" /><geom name="mesh_335_0" class="object/collision" mesh="mesh_335_0" /><geom name="mesh_335_1" class="object/collision" mesh="mesh_335_1" /></body>
+  </worldbody>
+  
+</mujoco>

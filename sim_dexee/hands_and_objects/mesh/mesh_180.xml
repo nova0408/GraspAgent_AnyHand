@@ -1,0 +1,13 @@
+<mujoco model="mesh_180">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_180" file="object/mesh_180/3dnet_1037_vox.obj" /><mesh name="mesh_180_0" file="object/mesh_180/output_parts/part_0.obj" /><mesh name="mesh_180_1" file="object/mesh_180/output_parts/part_1.obj" /><mesh name="mesh_180_2" file="object/mesh_180/output_parts/part_2.obj" /><mesh name="mesh_180_3" file="object/mesh_180/output_parts/part_3.obj" /><mesh name="mesh_180_4" file="object/mesh_180/output_parts/part_4.obj" /><mesh name="mesh_180_5" file="object/mesh_180/output_parts/part_5.obj" /><mesh name="mesh_180_6" file="object/mesh_180/output_parts/part_6.obj" /><mesh name="mesh_180_7" file="object/mesh_180/output_parts/part_7.obj" /><mesh name="mesh_180_8" file="object/mesh_180/output_parts/part_8.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_180" class="object/visual" mesh="mesh_180" /><geom name="mesh_180_0" class="object/collision" mesh="mesh_180_0" /><geom name="mesh_180_1" class="object/collision" mesh="mesh_180_1" /><geom name="mesh_180_2" class="object/collision" mesh="mesh_180_2" /><geom name="mesh_180_3" class="object/collision" mesh="mesh_180_3" /><geom name="mesh_180_4" class="object/collision" mesh="mesh_180_4" /><geom name="mesh_180_5" class="object/collision" mesh="mesh_180_5" /><geom name="mesh_180_6" class="object/collision" mesh="mesh_180_6" /><geom name="mesh_180_7" class="object/collision" mesh="mesh_180_7" /><geom name="mesh_180_8" class="object/collision" mesh="mesh_180_8" /></body>
+  </worldbody>
+  
+</mujoco>

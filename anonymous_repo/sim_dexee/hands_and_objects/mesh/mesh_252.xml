@@ -1,0 +1,13 @@
+<mujoco model="mesh_252">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_252" file="object/mesh_252/others_textured44_vox.obj" /><mesh name="mesh_252_0" file="object/mesh_252/output_parts/part_0.obj" /><mesh name="mesh_252_1" file="object/mesh_252/output_parts/part_1.obj" /><mesh name="mesh_252_2" file="object/mesh_252/output_parts/part_2.obj" /><mesh name="mesh_252_3" file="object/mesh_252/output_parts/part_3.obj" /><mesh name="mesh_252_4" file="object/mesh_252/output_parts/part_4.obj" /><mesh name="mesh_252_5" file="object/mesh_252/output_parts/part_5.obj" /><mesh name="mesh_252_6" file="object/mesh_252/output_parts/part_6.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_252" class="object/visual" mesh="mesh_252" /><geom name="mesh_252_0" class="object/collision" mesh="mesh_252_0" /><geom name="mesh_252_1" class="object/collision" mesh="mesh_252_1" /><geom name="mesh_252_2" class="object/collision" mesh="mesh_252_2" /><geom name="mesh_252_3" class="object/collision" mesh="mesh_252_3" /><geom name="mesh_252_4" class="object/collision" mesh="mesh_252_4" /><geom name="mesh_252_5" class="object/collision" mesh="mesh_252_5" /><geom name="mesh_252_6" class="object/collision" mesh="mesh_252_6" /></body>
+  </worldbody>
+  
+</mujoco>

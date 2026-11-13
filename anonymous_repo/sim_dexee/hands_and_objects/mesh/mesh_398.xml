@@ -1,0 +1,13 @@
+<mujoco model="mesh_398">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_398" file="object/mesh_398/gd_mushroom_poisson_008_scaled_vox.obj" /><mesh name="mesh_398_0" file="object/mesh_398/output_parts/part_0.obj" /><mesh name="mesh_398_1" file="object/mesh_398/output_parts/part_1.obj" /><mesh name="mesh_398_2" file="object/mesh_398/output_parts/part_2.obj" /><mesh name="mesh_398_3" file="object/mesh_398/output_parts/part_3.obj" /><mesh name="mesh_398_4" file="object/mesh_398/output_parts/part_4.obj" /><mesh name="mesh_398_5" file="object/mesh_398/output_parts/part_5.obj" /><mesh name="mesh_398_6" file="object/mesh_398/output_parts/part_6.obj" /><mesh name="mesh_398_7" file="object/mesh_398/output_parts/part_7.obj" /><mesh name="mesh_398_8" file="object/mesh_398/output_parts/part_8.obj" /><mesh name="mesh_398_9" file="object/mesh_398/output_parts/part_9.obj" /><mesh name="mesh_398_10" file="object/mesh_398/output_parts/part_10.obj" /><mesh name="mesh_398_11" file="object/mesh_398/output_parts/part_11.obj" /><mesh name="mesh_398_12" file="object/mesh_398/output_parts/part_12.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_398" class="object/visual" mesh="mesh_398" /><geom name="mesh_398_0" class="object/collision" mesh="mesh_398_0" /><geom name="mesh_398_1" class="object/collision" mesh="mesh_398_1" /><geom name="mesh_398_2" class="object/collision" mesh="mesh_398_2" /><geom name="mesh_398_3" class="object/collision" mesh="mesh_398_3" /><geom name="mesh_398_4" class="object/collision" mesh="mesh_398_4" /><geom name="mesh_398_5" class="object/collision" mesh="mesh_398_5" /><geom name="mesh_398_6" class="object/collision" mesh="mesh_398_6" /><geom name="mesh_398_7" class="object/collision" mesh="mesh_398_7" /><geom name="mesh_398_8" class="object/collision" mesh="mesh_398_8" /><geom name="mesh_398_9" class="object/collision" mesh="mesh_398_9" /><geom name="mesh_398_10" class="object/collision" mesh="mesh_398_10" /><geom name="mesh_398_11" class="object/collision" mesh="mesh_398_11" /><geom name="mesh_398_12" class="object/collision" mesh="mesh_398_12" /></body>
+  </worldbody>
+  
+</mujoco>

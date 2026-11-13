@@ -1,0 +1,13 @@
+<mujoco model="mesh_395">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_395" file="object/mesh_395/gd_mushroom_poisson_006_scaled_vox.obj" /><mesh name="mesh_395_0" file="object/mesh_395/output_parts/part_0.obj" /><mesh name="mesh_395_1" file="object/mesh_395/output_parts/part_1.obj" /><mesh name="mesh_395_2" file="object/mesh_395/output_parts/part_2.obj" /><mesh name="mesh_395_3" file="object/mesh_395/output_parts/part_3.obj" /><mesh name="mesh_395_4" file="object/mesh_395/output_parts/part_4.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_395" class="object/visual" mesh="mesh_395" /><geom name="mesh_395_0" class="object/collision" mesh="mesh_395_0" /><geom name="mesh_395_1" class="object/collision" mesh="mesh_395_1" /><geom name="mesh_395_2" class="object/collision" mesh="mesh_395_2" /><geom name="mesh_395_3" class="object/collision" mesh="mesh_395_3" /><geom name="mesh_395_4" class="object/collision" mesh="mesh_395_4" /></body>
+  </worldbody>
+  
+</mujoco>

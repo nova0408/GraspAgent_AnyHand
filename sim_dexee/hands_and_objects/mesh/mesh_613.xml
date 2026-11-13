@@ -1,0 +1,13 @@
+<mujoco model="mesh_613">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_613" file="object/mesh_613/gd_tape_poisson_005_scaled_vox.obj" /><mesh name="mesh_613_0" file="object/mesh_613/output_parts/part_0.obj" /><mesh name="mesh_613_1" file="object/mesh_613/output_parts/part_1.obj" /><mesh name="mesh_613_2" file="object/mesh_613/output_parts/part_2.obj" /><mesh name="mesh_613_3" file="object/mesh_613/output_parts/part_3.obj" /><mesh name="mesh_613_4" file="object/mesh_613/output_parts/part_4.obj" /><mesh name="mesh_613_5" file="object/mesh_613/output_parts/part_5.obj" /><mesh name="mesh_613_6" file="object/mesh_613/output_parts/part_6.obj" /><mesh name="mesh_613_7" file="object/mesh_613/output_parts/part_7.obj" /><mesh name="mesh_613_8" file="object/mesh_613/output_parts/part_8.obj" /><mesh name="mesh_613_9" file="object/mesh_613/output_parts/part_9.obj" /><mesh name="mesh_613_10" file="object/mesh_613/output_parts/part_10.obj" /><mesh name="mesh_613_11" file="object/mesh_613/output_parts/part_11.obj" /><mesh name="mesh_613_12" file="object/mesh_613/output_parts/part_12.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_613" class="object/visual" mesh="mesh_613" /><geom name="mesh_613_0" class="object/collision" mesh="mesh_613_0" /><geom name="mesh_613_1" class="object/collision" mesh="mesh_613_1" /><geom name="mesh_613_2" class="object/collision" mesh="mesh_613_2" /><geom name="mesh_613_3" class="object/collision" mesh="mesh_613_3" /><geom name="mesh_613_4" class="object/collision" mesh="mesh_613_4" /><geom name="mesh_613_5" class="object/collision" mesh="mesh_613_5" /><geom name="mesh_613_6" class="object/collision" mesh="mesh_613_6" /><geom name="mesh_613_7" class="object/collision" mesh="mesh_613_7" /><geom name="mesh_613_8" class="object/collision" mesh="mesh_613_8" /><geom name="mesh_613_9" class="object/collision" mesh="mesh_613_9" /><geom name="mesh_613_10" class="object/collision" mesh="mesh_613_10" /><geom name="mesh_613_11" class="object/collision" mesh="mesh_613_11" /><geom name="mesh_613_12" class="object/collision" mesh="mesh_613_12" /></body>
+  </worldbody>
+  
+</mujoco>

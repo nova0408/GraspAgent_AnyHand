@@ -1,0 +1,13 @@
+<mujoco model="mesh_593">
+
+  <compiler meshdir="assets" />
+  <asset>
+  <mesh name="mesh_593" file="object/mesh_593/kit_SmacksCereals_scaled_vox.obj" /><mesh name="mesh_593_0" file="object/mesh_593/output_parts/part_0.obj" /><mesh name="mesh_593_1" file="object/mesh_593/output_parts/part_1.obj" /></asset>
+
+  <worldbody>
+    <body>
+      <freejoint />
+    <geom name="mesh_593" class="object/visual" mesh="mesh_593" /><geom name="mesh_593_0" class="object/collision" mesh="mesh_593_0" /><geom name="mesh_593_1" class="object/collision" mesh="mesh_593_1" /></body>
+  </worldbody>
+  
+</mujoco>
